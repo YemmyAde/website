@@ -346,7 +346,7 @@ a.seeButton{
 
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 40px;
   top: 40px;
   z-index: 9998;
   border: 0;
@@ -1841,7 +1841,7 @@ section {
 }
 
 .bandSection{
-  padding: 80px 150px;
+  /* padding: 80px 150px; */
 }
 
 .womenExco{
@@ -2354,7 +2354,7 @@ background-color: #f5f9fc;
   left:0;
   margin:0;
   width:500%;
-  animation: 20s slider infinite;
+  animation: 25s slider infinite;
 }
 #slider figure img{
   float:left;
@@ -2560,4 +2560,7 @@ h4.historyText{
   font-weight: bold;
   visibility: visible;
   color: black;
+}
+@media screen and (max-width:767px){
+  
 }
