@@ -2511,6 +2511,8 @@ a.buttonCenter{
    .eventMainBar{
     width:100%;
   }
+  .mobileView{
+  padding:70px 10px 20px;}
 }
 .eventAll{
   margin: 0 100px;
@@ -2523,6 +2525,12 @@ a.buttonCenter{
 }
 .eventGallery{
   width: 33%;
+}
+@media screen and (max-width:768px){
+  .eventGallery{
+    width: 100%;
+  }
+  
 }
 .sideBarPics{
   width:100%;
